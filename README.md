@@ -1,2 +1,4 @@
 # Patient_Survival_Prediction
-Final group project for Data visualization 
+## Communication Protocol
+* Slack – Being used as the hub for general communication between team members.
+* Zoom Meetings – Being used for Voice and video communication when required. 
