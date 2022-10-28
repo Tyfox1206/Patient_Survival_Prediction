@@ -2,7 +2,7 @@
 ## Team 5 
 * Brian Bulter – Database
 * Emilie Lance – Machine Learning
-* Tyler Fox – Github
+* Tyler Fox – Github/Presentation 
 * Full team - Dashboards
 
 
