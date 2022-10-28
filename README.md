@@ -15,6 +15,7 @@ This dataset is the [“Patient Survival Prediction Dataset.”]( https://www.ka
  * How accurate can we get a machine learning model with dataset?
  * Is there a difference in Survivability based on the hospital?
  * Top ten features of the data for ICU survivability?
+ * Can our model prediction outcomes as well if not better then the Apache Scores
 
 
 ## Communication Protocols
