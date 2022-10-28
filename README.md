@@ -1,9 +1,9 @@
 # Patient Survival Prediction
 ## Team 5 
-Brian Bulter – Database
-Emilie Lance – Machine Learning 
-Tyler Fox – Github
-Full team - Dashboards
+* Brian Bulter – Database
+* Emilie Lance – Machine Learning
+* Tyler Fox – Github
+* Full team - Dashboards
 
 
 ## Overview
