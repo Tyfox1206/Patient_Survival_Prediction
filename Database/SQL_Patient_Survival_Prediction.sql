@@ -238,5 +238,45 @@ CREATE TABLE hospital_lookup (
 );
 
 COPY hospital_lookup FROM '/Users/brianbutler/Patient_Survival_Prediction/Database/hospital_lookup.csv' DELIMITER ',' CSV HEADER;
-SELECT * FROM hospital_lookup
+
+--Creating the table containing scores and probabilities for APACHE II, III and IV
+CREATE TABLE APACHE_scores (
+	patient_id NUMERIC NOT NULL,
+	hospital_death BOOLEAN,
+	apache_2_diagnosis NUMERIC,	
+	apache_3j_diagnosis	NUMERIC,
+	apache_4a_hospital_death_prob NUMERIC,	
+	apache_4a_icu_death_prob NUMERIC,
+	PRIMARY KEY (patient_ID)
+);
+
+COPY APACHE_scores FROM '/Users/brianbutler/Patient_Survival_Prediction/Database/APACHE_scores.csv' WITH (FORMAT CSV, NULL 'NA', HEADER, DELIMITER ','); -- CSV HEADER;
+
+--Joining together all of the separate APACHE related tables into one
+
+SELECT *
+FROM apache_scores
+INNER JOIN covariates ON covariates.patient_id = apache_scores.patient_id
+INNER JOIN comorbidities ON comorbidities.patient_ID = apache_scores.patient_id
+
+--Post-operative patients
+SELECT COUNT(patient_id)
+FROM patient
+WHERE apache_post_operative = TRUE;
+
+--Non-operative patients
+SELECT COUNT(patient_id)
+FROM patient
+WHERE apache_post_operative = FALSE;
+
+SELECT *
+INTO post_op_patients
+FROM patient
+WHERE apache_post_operative = TRUE;
+
+SELECT *
+INTO non_op_patients
+FROM patient
+WHERE apache_post_operative = FALSE;
+
 
