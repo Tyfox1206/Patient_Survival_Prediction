@@ -71,3 +71,8 @@ The algorithm is slower than other classification models
 
 ![Accuracy_score](https://user-images.githubusercontent.com/101427781/200131312-0ee10665-7c07-4a07-9345-e7f0f7ffd41c.png)
 
+#### Confusion Matrix
+
+The confusion matrix illustrates how many of a classifier’s predictions were correct. In the confusion matrix below you can see that our model has the potential to be trained more accurately. 
+
+![cm](https://user-images.githubusercontent.com/101427781/200134641-8ae98dc2-e42e-4401-9a67-73cce6467a3a.png)
