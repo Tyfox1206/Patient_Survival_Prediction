@@ -67,9 +67,16 @@ High accuracy and interpretability
 Limitations:
 The algorithm is slower than other classification models
 
+#### Choosing the Best Balanced Random Forest Classifier Model
+To obtain the best accuracy score for our mdoel, we tested differing n_estimators to see which number would give us the best result.
+
+![BRFC_n_estimators](https://user-images.githubusercontent.com/101427781/200134837-d6f48318-779a-4e78-81d9-405a454d4e0c.png)
+
+After collecting the results, our team decided to use n_estimators = 5000 for our final machine learning model. The accuracy score is the highest, however, beacuse of the high number of trees needed to run our model, it does take a long time for the code to run.
+
 #### Accuracy Score
 
-![Accuracy_score](https://user-images.githubusercontent.com/101427781/200131312-0ee10665-7c07-4a07-9345-e7f0f7ffd41c.png)
+![accuracy_score](https://user-images.githubusercontent.com/101427781/200134990-2a30eb6f-95f8-48a9-ba60-62c28cddc25b.png)
 
 #### Confusion Matrix
 
