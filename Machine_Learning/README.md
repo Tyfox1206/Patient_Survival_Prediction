@@ -83,3 +83,8 @@ After collecting the results, our team decided to use n_estimators = 5000 for ou
 The confusion matrix illustrates how many of a classifier’s predictions were correct. In the confusion matrix below you can see that our model has the potential to be trained more accurately. 
 
 ![cm](https://user-images.githubusercontent.com/101427781/200134641-8ae98dc2-e42e-4401-9a67-73cce6467a3a.png)
+
+#### Imbalanced Classification Report
+
+![imbalanced_Classification](https://user-images.githubusercontent.com/101427781/200422806-fdebfb95-a0e8-4231-af79-aff2757c38b2.png)
+
