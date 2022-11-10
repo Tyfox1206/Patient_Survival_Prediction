@@ -62,7 +62,8 @@ The provisional database worked well with our selected classification model(s). 
 ![Picture4](https://user-images.githubusercontent.com/101427781/200974229-31655754-8e38-42c2-8357-3817614bb649.png)
 
 
-![Picture5](https://user-images.githubusercontent.com/101427781/200974239-76cf148a-dd7b-426d-a49e-8ebd67e0ff7c.png)
+![database_entity_relationship_diagram_FINAL](https://user-images.githubusercontent.com/101427781/201091849-27450077-338e-46dc-93c2-1962f433a439.png)
+
 
 ## Creating Categorical Datasets
 
