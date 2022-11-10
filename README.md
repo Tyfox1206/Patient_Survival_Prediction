@@ -14,7 +14,7 @@ This dataset is the [“Patient Survival Prediction Dataset.”]( https://www.ka
 ## Questions We Hope to Answer with Our Analysis
  * How accurate can we get a machine learning model with dataset?
  * Top ten features of the data for ICU survivability?
- * Can our model predict outcomes as well if not better then the Apache Scores
+ * Can our model predict outcomes as well if not better then the Apache Scores?
 
 ## Google Slides
 [Here is a link to our slide deck for out project](https://docs.google.com/presentation/d/1tqfkghh-dxVE-MiiTn7kj0nsAiQ8NWGiNQQ4aSdb_-s/edit#slide=id.g13cbd3b1228_0_15)
