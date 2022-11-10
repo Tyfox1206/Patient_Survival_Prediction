@@ -1,0 +1,37 @@
+Ethnicity
+0 = African American
+1 = Asian
+2 = Caucasian
+3 = Hispanic
+4 = Native American
+5 = Other/Unkown
+
+73257
+
+IIF([Toggle] = TRUE, (IF [Hospital Death] = '1' THEN(IF [Gender] = '1' then 'Male'
+ELSEIF [Gender] = '0' then 'Female' else 'Unknown' END)END),(IF [Gender] = '1' then 'Male'
+ELSEIF [Gender] = '0' then 'Female' else 'Unknown' END))
+
+IIF([Toggle], (IF [Hospital Death] = '1' then(
+if [Ethnicity]= '0' then 'African American'
+ELSEIF [Ethnicity]= '1' then 'Asian'
+ELSEIF [Ethnicity]= '2' then 'Caucasion'
+ELSEIF [Ethnicity] = '3' then 'Hispanic'
+ELSEIF [Ethnicity] = '4' then 'Native American'
+ELSEIF [Ethnicity] = '5' then 'Other/Unknown' END)END),(
+if [Ethnicity]= '0' then 'African American'
+ELSEIF [Ethnicity]= '1' then 'Asian'
+ELSEIF [Ethnicity]= '2' then 'Caucasion'
+ELSEIF [Ethnicity] = '3' then 'Hispanic'
+ELSEIF [Ethnicity] = '4' then 'Native American'
+ELSEIF [Ethnicity] = '5' then 'Other/Unknown' END))
+
+decided to not go wtih a toggle switch in the end.
+
+icu admit
+0 = Accident & Emergency
+1 = Floor
+2 = Operating Room/Recovery
+3 = Other Hospital
+4 = Other ICU
+5 = Other
