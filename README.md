@@ -19,6 +19,9 @@ This dataset is the [“Patient Survival Prediction Dataset.”]( https://www.ka
 ## Google Slides
 [Here is a link to our slide deck for out project](https://docs.google.com/presentation/d/1tqfkghh-dxVE-MiiTn7kj0nsAiQ8NWGiNQQ4aSdb_-s/edit#slide=id.g13cbd3b1228_0_15)
 
+## Dashboard
+*Here will go our link to the Dashboard
+
 # Database
 
 ## Creating the Provisional Database
@@ -151,5 +154,11 @@ The confusion matrix illustrates how many of a classifier’s predictions were c
   <img width="468" alt="Picture2" src="https://user-images.githubusercontent.com/101427781/200973567-03a615bb-f9c8-4609-872a-11216a6c011f.png">
 
   
+  ### Further Improvements
   
+  *We still need to discuss this as a group
+  
+  ### References
+  
+  * All of the sources will go here 
   
