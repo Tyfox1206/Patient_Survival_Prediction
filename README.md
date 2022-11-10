@@ -133,15 +133,16 @@ The confusion matrix illustrates how many of a classifier’s predictions were c
 ![imbalanced_Classification](https://user-images.githubusercontent.com/101427781/200422806-fdebfb95-a0e8-4231-af79-aff2757c38b2.png)
 
 ## Questions That Were Answered 
- * How accurate can we get a machine learning model with dataset?
+
+#### How accurate can we get a machine learning model with dataset?
 
 ![Accuracy_score](https://user-images.githubusercontent.com/101427781/200972902-2eff6081-34cc-4e3b-aba9-6808fac2b849.png)
 
- * Top ten features of the data for ICU survivability?
+ #### Top ten features of the data for ICU survivability?
  
  ![Features](https://user-images.githubusercontent.com/101427781/200972991-d13dcb58-cbe7-44b0-833a-0a87230ff211.png)
 
-  * Can our model predict outcomes as well if not better then the Apache Scores
+  #### Can our model predict outcomes as well if not better then the Apache Scores?
   
   
   <img width="312" alt="Picture1" src="https://user-images.githubusercontent.com/101427781/200973545-2f551a21-c943-4b68-945a-f61f831f0857.png">
