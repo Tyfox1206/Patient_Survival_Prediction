@@ -23,6 +23,8 @@ I completed the demographics dashbaord which includes:
 
 Over all this dashboard shows a good breakdown of the patients demographics before getting into the details of the machine learning and ROC Curve comparison.
 
+![First Dashboard](https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/Dashboard/Dashboards/Images/Demographics_Dashboard.PNG)
+
 ### Second Dashboard Top 10 Features
 
 I have completed the Second Dashboard which includes:
@@ -36,6 +38,8 @@ I have completed the Second Dashboard which includes:
 * 24 Hour Min Systolic Blood Pressure Visual
 
 All these visualizations have the hostipal outcome conversion in them so you can where how they had impacted the number of deaths. For example in the Patient Age visualization as the age increase you can see the increased number of deaths. Whereas in the Min Mean Blood Pressure and Min Systolic Blood Pressure visualization as the number get lower the deaths increase.
+
+![top 10 Features](https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/Dashboard/Dashboards/Images/top_10_features.PNG)
 
 ### Third Dashboard ROC comparison
 
