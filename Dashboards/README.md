@@ -1,5 +1,7 @@
 # Patient_Survival_Prediction
 
+# Nothing is final still a work in progress
+
 ## Concept
 
 For our Dashboard we will be using tableau public. This is where we will create our interactive dashboard. For our Interactive Dashboard we will be creating toggle switch that when transitioned between survived and passed different pie charts will be populated to show different parameters. For example, showing the demographics of those individuals, if the user had a comorbidities, max heart rates, and others as we review the dashboard that we feel provides good value and information. Please see next slide for a rough graphic representation of what we are looking to achieve for the interactive element.  
