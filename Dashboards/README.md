@@ -10,6 +10,8 @@ For the first iteration I attempted to make a toggle button that would display d
 
 ## Second Iteration
 
+### First Dashboard Demographics
+
 I completed the demographics dashbaord which includes:
 
 * Count of Patients
@@ -19,4 +21,18 @@ I completed the demographics dashbaord which includes:
 * Gender Breakdown
 * ICU Admit Reason
 
-Over all this dashboard show a goood breakdown of the patients demographics before getting into the details of the machine learning and ROC Curve comparison.
+Over all this dashboard shows a good breakdown of the patients demographics before getting into the details of the machine learning and ROC Curve comparison.
+
+### Second Dashboard Top 10 Features
+
+I have completed the Second Dashboard which includes:
+
+* Non Ventilated Vs Ventilated Visual
+* Glasgow Coma Scale Visual
+* 24 Hour Max Heartrate Visual
+* Patient Age Visual
+* 24 Hour Min Oxygen Saturation Visual
+* 24 Hour min Mean Blood Pressure Visual
+* 24 Hour Min Systolic Blood Pressure Visual
+
+All these visualizations have the hostipal outcome conversion in them so you can where how they had impacted the number of deaths. For example in the Patient Age visualization as the age increase you can see the increased number of deaths. Whereas in the Min Mean Blood Pressure and Min Systolic Blood Pressure visualization as the number get lower the deaths increase.
