@@ -36,3 +36,7 @@ I have completed the Second Dashboard which includes:
 * 24 Hour Min Systolic Blood Pressure Visual
 
 All these visualizations have the hostipal outcome conversion in them so you can where how they had impacted the number of deaths. For example in the Patient Age visualization as the age increase you can see the increased number of deaths. Whereas in the Min Mean Blood Pressure and Min Systolic Blood Pressure visualization as the number get lower the deaths increase.
+
+### Third Dashboard ROC comparison
+
+* Work in progress
