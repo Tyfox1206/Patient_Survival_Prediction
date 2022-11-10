@@ -6,5 +6,17 @@ For our Dashboard we will be using tableau public. This is where we will create 
 
 ## First Iteration
 
-For the first iteration I attempted to make a toggle button that would display different visualizations on the dashboard. While this feature worked it did not work the way I had hoped and instead we scrapped the idea and went with a more convential tool tip as our interative element. we also decided to have three dashboard tabs. one for demographics, the top 10 features of the machine learning model and the ROC curve for the tird.
+For the first iteration I attempted to make a toggle button that would display different visualizations on the dashboard. While this feature worked it did not work the way I had hoped and instead we scrapped the idea and went with a more conventional tool tip as our interative element. we also decided to have three dashboard tabs. one for demographics, the top 10 features of the machine learning model and the ROC curve for the tird.
 
+## Second Iteration
+
+I completed the demographics dashbaord which includes:
+
+* Count of Patients
+* Ethnicity Breakdown
+* Number of Male and Female Patients by Age
+* Hospital Stays With Outcomes
+* Gender Breakdown
+* ICU Admit Reason
+
+Over all this dashboard show a goood breakdown of the patients demographics before getting into the details of the machine learning and ROC Curve comparison.
