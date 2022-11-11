@@ -196,7 +196,7 @@ Looking at the ROC curves below, suggests that all three classifiers (BRFC, APAC
   
   <img width="400" alt="Picture1" src="https://user-images.githubusercontent.com/101427781/200973545-2f551a21-c943-4b68-945a-f61f831f0857.png">
 
-  ![img]("https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/main/Database/APACHE%20IV%20ROC.png")
+  ![img](https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/main/Database/APACHE%20IV%20ROC.png)
   
   <img width="400" alt="Picture2" src="https://user-images.githubusercontent.com/101427781/200973567-03a615bb-f9c8-4609-872a-11216a6c011f.png">
 
@@ -207,15 +207,16 @@ Looking at the ROC curves below, suggests that all three classifiers (BRFC, APAC
   
   ### References
   
-1.	https://github.com/kevinconroy/apacheII
+1.	VBA function that calculates an APACHE II score for a patient. We used this function to calculate scores for the patients in our dataset.
 
-VBA function that calculates an APACHE II score for a patient. We used this function to calculate scores for the patients in our dataset.
+https://github.com/kevinconroy/apacheII
 
 2.	APACHE II: a severity of disease classification system
+
 https://www.researchgate.net/publication/19234189_APACHE_II_a_severity_of_disease_classification_system
 
-
 3.	Mortality Prediction Using Acute Physiology and Chronic Health Evaluation II and Acute Physiology and Chronic Health Evaluation IV Scoring Systems: Is There a Difference?
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5971641/
 
 4.	Comparison of the mortality prediction of different ICU scoring systems (APACHE II and III, SAPS II, and SOFA) in a single-center ICU subpopulation with acute respiratory distress syndrome
@@ -241,6 +242,4 @@ https://www.semanticscholar.org/paper/Validation-of-the-APACHE-IV-model-and-its-
 9.	Acute Physiology and Chronic Health Evaluation (APACHE) IV: Hospital mortality assessment for today’s critically ill patients*
 
 http://www.jvsmedicscorner.com/ICU-Miscellaneous_files/APACHE%20IV.pdf
-
-![image](https://user-images.githubusercontent.com/106709111/201258699-4c353b0e-2b7d-4f01-8012-839159112a7d.png)
   
