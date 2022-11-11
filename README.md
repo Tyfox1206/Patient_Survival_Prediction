@@ -194,10 +194,11 @@ The outcome of ROC is a curve that is created by plotting the true positive rate
 
 Looking at the ROC curves below, suggests that all three classifiers (BRFC, APACHE II, APACHE IV) performed well in predicting mortality in our ICU patient dataset. The generated AUC values are especially encouraging, as our BRFC model (AUC = 0.869) outperformed both APACHE II (AUC = 0.825) and APACHE IV (AUC = 0.836).
   
-  <img width="312" alt="Picture1" src="https://user-images.githubusercontent.com/101427781/200973545-2f551a21-c943-4b68-945a-f61f831f0857.png">
+  <img width="400" alt="Picture1" src="https://user-images.githubusercontent.com/101427781/200973545-2f551a21-c943-4b68-945a-f61f831f0857.png">
 
+  ![img]()
   
-  <img width="468" alt="Picture2" src="https://user-images.githubusercontent.com/101427781/200973567-03a615bb-f9c8-4609-872a-11216a6c011f.png">
+  <img width="400" alt="Picture2" src="https://user-images.githubusercontent.com/101427781/200973567-03a615bb-f9c8-4609-872a-11216a6c011f.png">
 
   
   ### Further Improvements
@@ -206,5 +207,40 @@ Looking at the ROC curves below, suggests that all three classifiers (BRFC, APAC
   
   ### References
   
-  * All of the sources will go here 
+1.	https://github.com/kevinconroy/apacheII
+
+VBA function that calculates an APACHE II score for a patient. We used this function to calculate scores for the patients in our dataset.
+
+2.	APACHE II: a severity of disease classification system
+https://www.researchgate.net/publication/19234189_APACHE_II_a_severity_of_disease_classification_system
+
+
+3.	Mortality Prediction Using Acute Physiology and Chronic Health Evaluation II and Acute Physiology and Chronic Health Evaluation IV Scoring Systems: Is There a Difference?
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5971641/
+
+4.	Comparison of the mortality prediction of different ICU scoring systems (APACHE II and III, SAPS II, and SOFA) in a single-center ICU subpopulation with acute respiratory distress syndrome
+
+https://www.sciencedirect.com/science/article/pii/S042276381530025X
+
+5.	The comparison of apache II and apache IV score to predict mortality in intensive care unit in a tertiary care hospital
+
+https://www.msjonline.org/index.php/ijrms/article/view/6088/4684
+
+6.	Evaluation of mortality prediction using SOFA and APACHE IV tools in trauma and non-trauma patients admitted to the ICU
+
+https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-022-00822-9#Tab1
+
+7.	A study on the efficacy of APACHE-IV for predicting mortality and length of stay in an intensive care unit in Iran
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5710303/
+
+8.	Validation of the APACHE IV model and its comparison with the APACHE II, SAPS 3, and Korean SAPS 3 models for the prediction of hospital mortality in a Korean surgical intensive care unit
+
+https://www.semanticscholar.org/paper/Validation-of-the-APACHE-IV-model-and-its-with-the-Lee-Shon/992db36eded98951f6d39d9915ec0b20aa3d7dd1
+
+9.	Acute Physiology and Chronic Health Evaluation (APACHE) IV: Hospital mortality assessment for today’s critically ill patients*
+
+http://www.jvsmedicscorner.com/ICU-Miscellaneous_files/APACHE%20IV.pdf
+
+![image](https://user-images.githubusercontent.com/106709111/201258699-4c353b0e-2b7d-4f01-8012-839159112a7d.png)
   
