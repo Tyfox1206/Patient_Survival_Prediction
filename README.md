@@ -196,7 +196,7 @@ Looking at the ROC curves below, suggests that all three classifiers (BRFC, APAC
   
   <img width="400" alt="Picture1" src="https://user-images.githubusercontent.com/101427781/200973545-2f551a21-c943-4b68-945a-f61f831f0857.png">
 
-  ![img](https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/main/Database/APACHE%20IV%20ROC.png)
+  <img width="400" alt="Picture3" src="https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/main/Database/APACHE%20IV%20ROC.png">
   
   <img width="400" alt="Picture2" src="https://user-images.githubusercontent.com/101427781/200973567-03a615bb-f9c8-4609-872a-11216a6c011f.png">
 
