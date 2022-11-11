@@ -171,14 +171,26 @@ An APACHE II score is calculated on parameters from three broad categories:
 
 3. Chronic Health Points
 - Additional points are assigned if the patient has a history of severe organ system insufficiency, including:
-- Liver cirrhosis
-- Portal hypertension
-- Heart failure 
-- Severe respiratory disease
-- Dialysis dependent 
-- Immunocompromised (i.e. due to chemotherapy, radiation, lymphoma, etc.)
+  - Liver cirrhosis
+  - Portal hypertension
+  - Heart failure 
+  - Severe respiratory disease
+  - Dialysis dependent 
+  - Immunocompromised (i.e. due to chemotherapy, radiation, lymphoma, etc.)
 
 Points are assigned for the above depending on whether the patient is nonoperative, elective postoperative or emergency nonoperative.
+
+***Detail on APACHE IV will go here
+
+***Summary APACHE charts will go here
+
+Discussion about the correlation between APACHE score and predicting mortality rate here...
+
+## Receiver Operating Characteristic (ROC) Analysis
+
+In order to assess the performance of our balanced random forest classifer model next to both the APACHE II and IV predictive models, we needed a technique to directly compare all three. Additionally, the team was interested in a more robust means of comparison than simply looking at the accuracy score of each. A literature review led us to receiver operating characteristic (ROC) analysis, which is widely used when assessing binary classifier models and has been used in past research on APACHE effectiveness. 
+
+The outcome of ROC is a curve that is created by plotting the true positive rate (sensitivity) against the false positive rate (1 - specificity) at various threshold settings. In general, the more the curve hugs of the upper lefthand corner of the chart, the better the model does at classifying the data. In order to make a direct comparision between the models in this project, we calculated the Area Under the Curve (AUC) for each, which tells us how much of the chart area can be found below the curve. The closer the AUC is to 1, the better the model performance. An AUC closer to 0.5 would indicate a model no better than one that randomly classifies.
 
 
   
