@@ -170,11 +170,17 @@ An APACHE II score is calculated on parameters from three broad categories:
 - Points are assigned to the patient (between 0 and 6), based on their age. The older they are, the more points are given. 
 
 3. Chronic Health Points
-- Additional points are assigned if the patient has a history of severe organ system insufficiency:
-liver cirrhosis, portal hypertension, NYHA class IV heart failure, severe respiratory disease, dialysis dependent) or is immunocompromised (i.e. due to chemotherapy, radiation, high dose steroid therapy, or advanced leukemia, lymphoma or AIDS) assign points as follows:
+- Additional points are assigned if the patient has a history of severe organ system insufficiency, including:
+- Liver cirrhosis
+- Portal hypertension
+- Heart failure 
+- Severe respiratory disease
+- Dialysis dependent 
+- Immunocompromised (i.e. due to chemotherapy, radiation, lymphoma, etc.)
 
-a. for nonoperative or emergency postoperative patients: 5 points
-b. for elective postoperative patients: 2 points
+Points are assigned for the above depending on whether the patient is nonoperative, elective postoperative or emergency nonoperative.
+
+
   
   <img width="312" alt="Picture1" src="https://user-images.githubusercontent.com/101427781/200973545-2f551a21-c943-4b68-945a-f61f831f0857.png">
 
