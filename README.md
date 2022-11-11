@@ -192,7 +192,7 @@ In order to assess the performance of our balanced random forest classifer model
 
 The outcome of ROC is a curve that is created by plotting the true positive rate (sensitivity) against the false positive rate (1 - specificity) at various threshold settings. In general, the more the curve hugs of the upper lefthand corner of the chart, the better the model does at classifying the data. In order to make a direct comparision between the models in this project, we calculated the Area Under the Curve (AUC) for each, which tells us how much of the chart area can be found below the curve. The closer the AUC is to 1, the better the model performance. An AUC closer to 0.5 would indicate a model no better than one that randomly classifies.
 
-
+Looking at the ROC curves below, suggests that all three classifiers (BRFC, APACHE II, APACHE IV) performed well in predicting mortality in our ICU patient dataset. The generated AUC values are especially encouraging, as our BRFC model (AUC = 0.869) outperformed both APACHE II (AUC = 0.825) and APACHE IV (AUC = 0.836).
   
   <img width="312" alt="Picture1" src="https://user-images.githubusercontent.com/101427781/200973545-2f551a21-c943-4b68-945a-f61f831f0857.png">
 
