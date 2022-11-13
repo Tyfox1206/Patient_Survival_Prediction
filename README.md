@@ -56,13 +56,13 @@ The provisional database worked well with our selected classification model(s). 
 
 #### ERDs
 
-![Picture3](https://user-images.githubusercontent.com/101427781/200974211-bae52751-fde6-4d09-b110-8b56ffd50072.png)
+![database_entity_relationship_diagram_FINAL](https://user-images.githubusercontent.com/101427781/201540251-0d7a03f5-819b-449e-81f5-5e9b5ec62111.png)
 
 
-![Picture4](https://user-images.githubusercontent.com/101427781/200974229-31655754-8e38-42c2-8357-3817614bb649.png)
+![ERD_Process](https://user-images.githubusercontent.com/101427781/201540259-4e682e65-8f23-4887-b915-b76132f2bb49.png)
 
 
-![database_entity_relationship_diagram_FINAL](https://user-images.githubusercontent.com/101427781/201091849-27450077-338e-46dc-93c2-1962f433a439.png)
+![Completed_ERD_Slide](https://user-images.githubusercontent.com/101427781/201540266-97b8422f-3f2d-439c-8b6d-576748b1b361.png)
 
 
 ## Creating Categorical Datasets
