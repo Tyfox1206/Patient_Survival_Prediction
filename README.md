@@ -200,6 +200,8 @@ The outcome of ROC is a curve that is created by plotting the true positive rate
 Looking at the ROC curves below, suggests that all three classifiers (BRFC, APACHE II, APACHE IV) performed well in predicting mortality in our ICU patient dataset. The generated AUC values are especially encouraging, as our BRFC model (AUC = 0.869) outperformed both APACHE II (AUC = 0.825) and APACHE IV (AUC = 0.836).
   
   ![ROC2](https://user-images.githubusercontent.com/101427781/201540369-e64e5f67-1bfb-4c55-985d-2488a07fc2f0.png)
+  
+  <img width="400" alt+"Picture1" src="https://user-images.githubusercontent.com/101427781/201540369-e64e5f67-1bfb-4c55-985d-2488a07fc2f0.png">
 
   <img width="400" alt="Picture3" src="https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/main/Database/APACHE%20IV%20ROC.png">
   
