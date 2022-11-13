@@ -100,9 +100,14 @@ The feature for every model was the same, hospital_death. We wanted to test for 
 
 We used the sklearn train_test_split function for all of our datasets.
 
-We also would check the balance for the y_train and y_test data
+We also checked the balance for the y_train and y_test data, and created visualizations to detail the breakdown.
 
 ![Train_Test](https://user-images.githubusercontent.com/101427781/200974653-496c0855-bdae-4335-a0a0-8afbad588a66.png)
+
+![Proportion](https://user-images.githubusercontent.com/101427781/201543609-56bb94b8-89b4-4287-8c5e-1e08a6484bb1.png)
+
+![Train_Test_BREAKDOWN](https://user-images.githubusercontent.com/101427781/201543616-2de55a7f-67f9-4dea-a587-c21ffe88b75d.png)
+
 
 ## Model Choice
 
