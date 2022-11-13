@@ -243,3 +243,6 @@ https://www.semanticscholar.org/paper/Validation-of-the-APACHE-IV-model-and-its-
 
 http://www.jvsmedicscorner.com/ICU-Miscellaneous_files/APACHE%20IV.pdf
   
+10. Informational ROC Curve Image
+
+https://sarvagnasaitech.com/roc-curve-and-its-importance-in-machine-learning/
