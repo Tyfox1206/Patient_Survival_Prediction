@@ -1,5 +1,9 @@
 # Patient_Survival_Prediction
 
+# Nothing is final still a work in progress
+
+[Link to Tableau public dashboard](https://public.tableau.com/app/profile/tyler.fox6213/viz/Patient_Survival_Prediction_Dashboard/Patient_Surviva_Prediction?publish=yes)
+
 ## Concept
 
 For our Dashboard we will be using tableau public. This is where we will create our interactive dashboard. For our Interactive Dashboard we will be creating toggle switch that when transitioned between survived and passed different pie charts will be populated to show different parameters. For example, showing the demographics of those individuals, if the user had a comorbidities, max heart rates, and others as we review the dashboard that we feel provides good value and information. Please see next slide for a rough graphic representation of what we are looking to achieve for the interactive element.  
@@ -23,6 +27,8 @@ I completed the demographics dashbaord which includes:
 
 Over all this dashboard shows a good breakdown of the patients demographics before getting into the details of the machine learning and ROC Curve comparison.
 
+![First Dashboard](https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/Dashboard/Dashboards/Images/Demographics_Dashboard.PNG)
+
 ### Second Dashboard Top 10 Features
 
 I have completed the Second Dashboard which includes:
@@ -37,6 +43,9 @@ I have completed the Second Dashboard which includes:
 
 All these visualizations have the hostipal outcome conversion in them so you can where how they had impacted the number of deaths. For example in the Patient Age visualization as the age increase you can see the increased number of deaths. Whereas in the Min Mean Blood Pressure and Min Systolic Blood Pressure visualization as the number get lower the deaths increase.
 
+![top 10 Features](https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/Dashboard/Dashboards/Images/top_10_features.PNG)
+
 ### Third Dashboard ROC comparison
 
 * Work in progress
+
