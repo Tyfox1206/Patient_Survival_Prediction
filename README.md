@@ -153,7 +153,7 @@ The confusion matrix illustrates how many of a classifier’s predictions were c
 
  ### Can our model predict outcomes as well if not better then the Acute Physiology and Chronic Health Evaluation (APACHE) system ?
   
- When a patient is admitted to an Intensive Care Unit (ICU), their outcome depends on numerous factors including age, sex, and severity of underlying health condition(s), as well as various physiological and laboratory metrics. In order to more easily measure the severity of disease and provide an estimation of mortality, APACHE was developed to take in a number of related parameters and summarize a patient's outlook with a score (from 0 to 71), with higher scores corresponding to more severe disease and a higher risk of death. Since its initial creation in 1981, the APACHE tool has been updated several times and the most common versions used today by ICUs are APACHE II and APACHE IV. 
+ When a patient is admitted to an Intensive Care Unit (ICU), their outcome depends on numerous factors including age, sex, and severity of underlying health condition(s), as well as various physiological and laboratory metrics. In order to more easily measure the severity of disease and provide an estimation of mortality, APACHE was developed to take in a number of related parameters and summarize a patient's outlook with a score (from 0 to 71 in the case of APACHE II), with higher scores corresponding to more severe disease and a higher risk of death. Since its initial creation in 1981, the APACHE tool has been updated several times and the most common versions used today by ICUs are APACHE II and APACHE IV. 
   
 An APACHE II score is calculated on parameters from three broad categories:
 
