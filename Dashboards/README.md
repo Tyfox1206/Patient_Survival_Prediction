@@ -47,5 +47,13 @@ All these visualizations have the hostipal outcome conversion in them so you can
 
 ### Third Dashboard ROC comparison
 
-* Work in progress
+The Third dashboard as been complete which includes
+
+* Apache II Score Distribution
+* Apache II and Hospitol Death
+* ROC Curve for Apache II logistic Regression
+* ROC Curve for Apache IV Logistic Regression
+* ROC Curve for Balanced Random Forest Classifier
+
+![ROC Comparison](https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/main/Dashboards/Images/ROC_Comparison.PNG)
 
