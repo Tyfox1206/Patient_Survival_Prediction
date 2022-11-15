@@ -20,7 +20,7 @@ This dataset is the [“Patient Survival Prediction Dataset.”]( https://www.ka
 [Here is a link to our slide deck for out project](https://docs.google.com/presentation/d/1tqfkghh-dxVE-MiiTn7kj0nsAiQ8NWGiNQQ4aSdb_-s/edit#slide=id.g13cbd3b1228_0_15)
 
 ## Dashboard
-*Here will go our link to the Dashboard
+[Link to Tableau public dashboard](https://public.tableau.com/app/profile/tyler.fox6213/viz/Patient_Survival_Prediction_Dashboard/Patient_Survival_Prediction?publish=yes)
 
 # Database
 
