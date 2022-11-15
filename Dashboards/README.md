@@ -2,7 +2,7 @@
 
 # Nothing is final still a work in progress
 
-[Link to Tableau public dashboard](https://public.tableau.com/app/profile/tyler.fox6213/viz/Patient_Survival_Prediction_Dashboard/Patient_Surviva_Prediction?publish=yes)
+[Link to Tableau public dashboard](https://public.tableau.com/app/profile/tyler.fox6213/viz/Patient_Survival_Prediction_Dashboard/Patient_Survival_Prediction?publish=yes)
 
 ## Concept
 
@@ -47,5 +47,15 @@ All these visualizations have the hostipal outcome conversion in them so you can
 
 ### Third Dashboard ROC comparison
 
-* Work in progress
+The Third dashboard as been complete which includes
+
+* Apache II Score Distribution
+* Apache II and Hospitol Death
+* ROC Curve for Apache II logistic Regression
+* ROC Curve for Apache IV Logistic Regression
+* ROC Curve for Balanced Random Forest Classifier
+
+![ROC Comparison](https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/main/Dashboards/Images/ROC_Comparison.PNG)
+
+### Conversions in regards to a fourth dashboard being had.
 
