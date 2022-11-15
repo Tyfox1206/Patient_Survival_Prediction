@@ -2,7 +2,7 @@
 
 # Nothing is final still a work in progress
 
-[Link to Tableau public dashboard](https://public.tableau.com/app/profile/tyler.fox6213/viz/Patient_Survival_Prediction_Dashboard/Patient_Surviva_Prediction?publish=yes)
+[Link to Tableau public dashboard](https://public.tableau.com/app/profile/tyler.fox6213/viz/Patient_Survival_Prediction_Dashboard/Patient_Survival_Prediction?publish=yes)
 
 ## Concept
 
