@@ -208,7 +208,10 @@ Looking at the ROC curves below, suggests that all three classifiers (BRFC, APAC
   
   ### Further Improvements
   
-  *We still need to discuss this as a group
+1. Use a neural network model and compare to how well it performs against the Balanced Random Forest Classifier.
+
+2. Find out what particular hospitals were referenced with the hospital_id column. Our group did not have any geographical location information on these hospital ICUs. 
+
   
   ### References
   
