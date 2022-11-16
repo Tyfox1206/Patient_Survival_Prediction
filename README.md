@@ -185,7 +185,7 @@ The confusion matrix illustrates how many of a classifier’s predictions were c
 
 Points are assigned for the above depending on whether the patient is nonoperative, elective postoperative or emergency nonoperative.
 
-The APACHE IV system was built on the existing APACHE II factors with the following additions:
+**The APACHE IV system was built on the existing APACHE II factors with the following additions:**
 
 - Ventilation
 - Blood Urea Nitrogen (BUN) concentration
