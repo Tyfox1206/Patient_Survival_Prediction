@@ -185,11 +185,27 @@ An APACHE II score is calculated on parameters from three broad categories:
 
 Points are assigned for the above depending on whether the patient is nonoperative, elective postoperative or emergency nonoperative.
 
-***Detail on APACHE IV will go here
+The APACHE IV system was built on the existing APACHE II factors with the following additions:
 
-***Summary APACHE charts will go here
+- Ventilation
+- Blood Urea Nitrogen (BUN) concentration
+- Bilirubin concentration
+- Partial pressure of carbon dioxide from the arterial blood gas
+- The pH from the arterial blood gas 
+- Albumin concentration
+- Glucose concentration
+- The location of the patient prior to being admitted to the ICU
+- The length of stay of the patient between hospital admission and unit admission
 
-Discussion about the correlation between APACHE score and predicting mortality rate here...
+Even though we looked at both APACHE II and APACHE IV as comparisons for our model, we did more analysis on the APACHE II scores because of the larger amount of missing data among the APACHE IV dataset. Some of the factors included in APACHE IV had a large proportion of null values among our patients, meaning that those labs were likely not run or those vitals were not taken.
+
+chart 1
+
+The APACHE II scores calculated for the patients in the database ranged from 0 to 58. The data appears to be normally distributed with a score of 20 as the most frequenty appearing in the set. 
+
+chart 2
+
+In order to more easily make some conclusions about our data, we organized the APACHE II scores into binned ranges. Plotting the ranges by mortality rate clearly shows that as scores increase, so does the rate of ICU death within the group. When we plot the predicted mortality rate on the same chart it follows a similar trend. However, for each range, the predicted rate of mortality was higher than the observed rate. Similar results appeared in our Machine Learning analysis. 
 
 ## Receiver Operating Characteristic (ROC) Analysis
 
