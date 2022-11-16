@@ -143,19 +143,19 @@ The confusion matrix illustrates how many of a classifier’s predictions were c
 
 ## Questions That Were Answered 
 
-### How accurate can we get a machine learning model with dataset?
+### 1. How accurate can we get a machine learning model with dataset?
 
 ![Accuracy_score](https://user-images.githubusercontent.com/101427781/200972902-2eff6081-34cc-4e3b-aba9-6808fac2b849.png)
 
- ### Top ten features of the data for ICU survivability?
+ ### 2. Top ten features of the data for ICU survivability?
  
  ![Features](https://user-images.githubusercontent.com/101427781/200972991-d13dcb58-cbe7-44b0-833a-0a87230ff211.png)
 
- ### Can our model predict outcomes as well if not better then the Acute Physiology and Chronic Health Evaluation (APACHE) system ?
+ ### 3. Can our model predict outcomes as well if not better then the Acute Physiology and Chronic Health Evaluation (APACHE) system ?
   
  When a patient is admitted to an Intensive Care Unit (ICU), their outcome depends on numerous factors including age, sex, and severity of underlying health condition(s), as well as various physiological and laboratory metrics. In order to more easily measure the severity of disease and provide an estimation of mortality, APACHE was developed to take in a number of related parameters and summarize a patient's outlook with a score (from 0 to 71 in the case of APACHE II), with higher scores corresponding to more severe disease and a higher risk of death. Since its initial creation in 1981, the APACHE tool has been updated several times and the most common versions used today by ICUs are APACHE II and APACHE IV. 
   
-An APACHE II score is calculated on parameters from three broad categories:
+**An APACHE II score is calculated on parameters from three broad categories:**
 
 1. Acute Physiology Score (measured within 24 hours of admission)
 - Alveolar–arterial gradient (AaDO2) or blood gas tension (PaO2) of oxygen
