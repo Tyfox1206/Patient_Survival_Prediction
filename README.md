@@ -212,6 +212,8 @@ Looking at the ROC curves below, suggests that all three classifiers (BRFC, APAC
 
 2. Find out what particular hospitals were referenced with the hospital_id column. Our group did not have any geographical location information on these hospital ICUs. 
 
+3. Investigate model performance and differences in outcomes between ICU patients that were post-operative versus those that non-operative. These could be considered distinctly different populations and previous research efforts have made this distinction in their analyses.
+
   
   ### References
   
