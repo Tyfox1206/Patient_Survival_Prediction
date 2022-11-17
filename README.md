@@ -199,11 +199,11 @@ Points are assigned for the above depending on whether the patient is nonoperati
 
 Even though we looked at both APACHE II and APACHE IV as comparisons for our model, we did more analysis on the APACHE II scores because of the larger amount of missing data among the APACHE IV dataset. Some of the factors included in APACHE IV had a large proportion of null values among our patients, meaning that those labs were likely not run or those vitals were not taken.
 
-chart 1
+<img width="400" alt="Picture5" src="">
 
 The APACHE II scores calculated for the patients in the database ranged from 0 to 58. The data appears to be normally distributed with a score of 20 as the most frequenty appearing in the set. 
 
-<img width="400" alt="Picture1" src="https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/main/Database/APACHE%20II%20and%20Hospital%20Death.png">
+<img width="400" alt="Picture6" src="https://github.com/Tyfox1206/Patient_Survival_Prediction/blob/main/Database/APACHE%20II%20and%20Hospital%20Death.png">
 
 In order to more easily make some conclusions about our data, we organized the APACHE II scores into binned ranges. Plotting the ranges by mortality rate clearly shows that as scores increase, so does the rate of ICU death within the group. When we plot the predicted mortality rate on the same chart it follows a similar trend. However, for each range, the predicted rate of mortality was higher than the observed rate. Similar results appeared in our Machine Learning analysis. 
 
